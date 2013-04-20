@@ -1265,7 +1265,8 @@ do
 done
 unset f
 
-addcompletioexport ARM_EABI_TOOLCHAIN=
+addcompletions
+export ARM_EABI_TOOLCHAIN=
 case $ARCH in
     arm) toolchaindir=linaro/bin
         ;;
