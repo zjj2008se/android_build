@@ -1265,4 +1265,9 @@ do
 done
 unset f
 
-addcompletions
+addcompletioexport ARM_EABI_TOOLCHAIN=
+case $ARCH in
+    arm) toolchaindir=linaro/bin
+        ;;
+    *)
+esca
